@@ -1,0 +1,36 @@
+{
+    "locations": [
+        "Hospital",
+        "School",
+        "University",
+        "Data Center",
+        "Railway Station"
+    ],
+    "connections": [
+        {
+            "from": "Hospital",
+            "to": "School",
+            "cost": 15000
+        },
+        {
+            "from": "Hospital",
+            "to": "Railway Station",
+            "cost": 12000
+        },
+        {
+            "from": "School",
+            "to": "University",
+            "cost": 20000
+        },
+        {
+            "from": "Data Center",
+            "to": "University",
+            "cost": 25000
+        },
+        {
+            "from": "Data Center",
+            "to": "School",
+            "cost": 10000
+        }
+    ]
+}
